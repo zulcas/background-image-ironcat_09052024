@@ -2,6 +2,8 @@
 
 Implementa el siguiente slider, donde todas las imágenes se encuentran en una carpeta de nombre **img**
 
+[Demo](https://js-beginners.github.io/background-image-slider-project/)
+
 1. Asocia dos eventos __click__ a cada uno de los botones. Comprueba que funciona correctamente haciendo un simple console.log cuando 
 hagas clic en cada uno de ellos.
 2. Fíjate que el nombre de las imágenes está en una posición del array, pero estas, se encuentran dentro de la carpeta **img**. 
