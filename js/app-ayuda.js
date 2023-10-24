@@ -9,7 +9,7 @@ const pictures = [
 // Variable de estado para saber en qué índice de foto nos encontramos
 let index = 2;
 
-// Cargo la primera imagen
+// Cargo la imagen que apunta la variable de estado
 let slider = document.querySelector(".img-container");
 slider.style.backgroundImage = `url('./img/${pictures[index]}.jpeg')`;
 
