@@ -1,17 +1,17 @@
 const pictures = [
-  "contBcg-0",
-  "contBcg-1",
-  "contBcg-2",
-  "contBcg-3",
-  "contBcg-4",
+  "https://cdn2.thecatapi.com/images/1bn.png",
+  "https://cdn2.thecatapi.com/images/eds.jpg",
+  "https://cdn2.thecatapi.com/images/c38.jpg",
+  "https://cdn2.thecatapi.com/images/53h.jpg",
+  "https://cdn2.thecatapi.com/images/9hl.jpg"
 ];
 
 // Variable de estado para saber en qué índice de foto nos encontramos
-let index = 2;
+let index = 0;
 
 // Cargo la imagen que apunta la variable de estado
 let slider = document.querySelector(".img-container");
-slider.style.backgroundImage = `url('./img/${pictures[index]}.jpeg')`;
+slider.style.backgroundImage = `url(${pictures[index]})`;
 
 // buena suerte
 

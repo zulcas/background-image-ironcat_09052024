@@ -1,9 +1,12 @@
 const pictures = [
-  "contBcg-0",
-  "contBcg-1",
-  "contBcg-2",
-  "contBcg-3",
-  "contBcg-4"
+  "https://cdn2.thecatapi.com/images/1bn.png",
+  "https://cdn2.thecatapi.com/images/eds.jpg",
+  "https://cdn2.thecatapi.com/images/c38.jpg",
+  "https://cdn2.thecatapi.com/images/53h.jpg",
+  "https://cdn2.thecatapi.com/images/9hl.jpg"
 ];
 
-// buena suerte
+/**
+ * ¿Qué variable de estado vamos a necesitar?
+ * ¿Cómo se establece la imagen de fondo de un elemento mediante un estilo en línea?
+ */
